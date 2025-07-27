@@ -17,7 +17,7 @@ function HomePage() {
 
   const handleSubmit = async () => {
     setLoading(true);
-    setSubmitMessage(null);  
+    setSubmitMessage(null);
     
     try {
         await submitRequest(user, note);
@@ -31,7 +31,7 @@ function HomePage() {
   };
 
   const submitButtonOnClick = async () => {
-    if(!isTheSubmittedInputValid) {
+    if(!isTheSubmittedInputValid()) {
       return;
     }
 

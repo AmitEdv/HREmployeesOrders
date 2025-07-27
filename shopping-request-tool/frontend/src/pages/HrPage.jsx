@@ -31,7 +31,7 @@ function HrPage() {
 
       <br />
       <button onClick={deleteAllReqButtonOnClick} disabled={deleting}>
-        {deleting ? "Deleting..." : "Delete"}
+        {deleting ? "Deleting..." : "Delete All Requests"}
       </button>
 
       {deleteMessage && <p>{deleteMessage}</p>}
