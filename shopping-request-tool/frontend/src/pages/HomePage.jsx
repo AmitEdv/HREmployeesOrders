@@ -76,6 +76,7 @@ function HomePage() {
 
   return (
     <div style={{ padding: 20 }}>
+      <img src="/public/shopping-bag.svg" alt="Logo" style={{ width: '100px', display: 'block' }} />
       <h1>Weekly Shopping Request</h1>
 
       <input
