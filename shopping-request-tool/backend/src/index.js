@@ -6,7 +6,6 @@ const app = express();
 const PORT = 3001;
 
 app.use(express.json());
-//for DEV deployment only
 app.use(cors({
     origin: "http://localhost:5173"
 }));
