@@ -7,7 +7,6 @@ function HrPage() {
 
    const deleteAllReqButtonOnClick = async () => {
       await handleDeleteAllReq();
-      refreshRequests();
     };
   
   const handleDeleteAllReq = async () => {
